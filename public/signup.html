@@ -21,27 +21,23 @@
 
   <main class="auth-container">
     <div class="auth-box">
-      <h1><i class="fas fa-user-plus"></i> Create Account</h1>
-      <form id="signup-form" class="auth-form">
+      <h1><i class="fas fa-code"></i> Sign Up</h1>
+      <form id="signup-form" class="auth-form" autocomplete="off">
         <div class="form-group">
           <label for="username"><i class="fas fa-user"></i> Username</label>
-          <input type="text" id="username" name="username" required minlength="3" maxlength="20" placeholder="Choose a username">
-          <span class="error-message" id="username-error"></span>
+          <input type="text" id="username" name="username" required autocomplete="off">
         </div>
         <div class="form-group">
           <label for="email"><i class="fas fa-envelope"></i> Email</label>
-          <input type="email" id="email" name="email" required placeholder="Enter your email">
-          <span class="error-message" id="email-error"></span>
+          <input type="email" id="email" name="email" required autocomplete="off">
         </div>
         <div class="form-group">
           <label for="password"><i class="fas fa-lock"></i> Password</label>
-          <input type="password" id="password" name="password" required minlength="6" placeholder="Create a password">
-          <span class="error-message" id="password-error"></span>
+          <input type="password" id="password" name="password" required autocomplete="new-password">
         </div>
         <div class="form-group">
           <label for="confirm-password"><i class="fas fa-lock"></i> Confirm Password</label>
-          <input type="password" id="confirm-password" name="confirm-password" required placeholder="Confirm your password">
-          <span class="error-message" id="confirm-password-error"></span>
+          <input type="password" id="confirm-password" name="confirm-password" required autocomplete="new-password">
         </div>
         <div class="form-group">
           <div class="loading-spinner" id="signup-spinner" style="display: none;">
@@ -67,9 +63,9 @@
         </div>
       </div>
 
-      <p class="auth-switch">
-        Already have an account? <a href="login.html"><i class="fas fa-sign-in-alt"></i> Login</a>
-      </p>
+      <div class="auth-switch">
+        Already have an account? <a href="login.html">Login</a>
+      </div>
     </div>
   </main>
 
