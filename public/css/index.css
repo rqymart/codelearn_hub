@@ -549,15 +549,6 @@ h2::after {
   line-height: 1.7;
 }
 
-/* Footer */
-.footer {
-  padding: 3rem 5%;
-  text-align: center;
-  background-color: #101010;
-  border-top: 1px solid rgba(0, 242, 255, 0.2);
-  color: var(--text-muted);
-}
-
 /* Responsive Design */
 @media (max-width: 1024px) {
   :root {
@@ -673,11 +664,6 @@ html {
 
 .light-mode .about-us {
   background-color: #faf7f3;
-}
-
-.light-mode .footer {
-  background-color: #f5f1eb;
-  border-top: 1px solid var(--border-color);
 }
 
 .light-mode .tutorial-card {

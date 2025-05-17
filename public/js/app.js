@@ -91,7 +91,7 @@ function initializeCarousel() {
   });
   
   if (carousel && cards.length && leftBtn && rightBtn) {
-    let currentIndex = 0;
+  let currentIndex = 0;
     let isAnimating = false;
     let cardWidth = cards[0].offsetWidth;
     const cardMargin = 30;
@@ -102,23 +102,23 @@ function initializeCarousel() {
       
       if (isAnimating) return;
       
-      const oldIndex = currentIndex;
+    const oldIndex = currentIndex;
       const visibleCards = window.innerWidth <= 768 ? 1 : window.innerWidth <= 1024 ? 2 : 3;
-      
-      if (direction === 'left' && currentIndex > 0) {
-        currentIndex--;
+    
+    if (direction === 'left' && currentIndex > 0) {
+      currentIndex--;
       } else if (direction === 'right' && currentIndex < totalCards - visibleCards) {
-        currentIndex++;
-      }
+      currentIndex++;
+    }
 
-      if (oldIndex !== currentIndex) {
+    if (oldIndex !== currentIndex) {
         isAnimating = true;
-        const offset = currentIndex * (cardWidth + cardMargin);
+      const offset = currentIndex * (cardWidth + cardMargin);
         
-        carousel.style.transition = 'transform 0.5s ease';
-        carousel.style.transform = `translateX(-${offset}px)`;
-        
-        // Update button states
+      carousel.style.transition = 'transform 0.5s ease';
+      carousel.style.transform = `translateX(-${offset}px)`;
+      
+      // Update button states
         leftBtn.style.opacity = currentIndex === 0 ? '0.5' : '1';
         leftBtn.style.pointerEvents = currentIndex === 0 ? 'none' : 'auto';
         
@@ -134,20 +134,20 @@ function initializeCarousel() {
     // Add click handlers
     leftBtn.onclick = function(e) {
       e.preventDefault();
-      updateCarousel('left');
+    updateCarousel('left');
     };
 
     rightBtn.onclick = function(e) {
       e.preventDefault();
-      updateCarousel('right');
+    updateCarousel('right');
     };
 
     // Handle window resize
     window.onresize = function() {
       cardWidth = cards[0].offsetWidth;
       const offset = currentIndex * (cardWidth + cardMargin);
-      carousel.style.transition = 'none';
-      carousel.style.transform = `translateX(-${offset}px)`;
+    carousel.style.transition = 'none';
+    carousel.style.transform = `translateX(-${offset}px)`;
     };
 
     // Initialize

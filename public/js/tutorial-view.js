@@ -999,9 +999,9 @@ document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener('DOMContentLoaded', () => {
         // Set initial progress bar state
         if (progressBarInner && progressLabel) {
-            progressBarInner.style.width = '0%';
-            progressLabel.textContent = '0% Watched';
-            progressBarInner.setAttribute('aria-valuenow', 0);
+        progressBarInner.style.width = '0%';
+        progressLabel.textContent = '0% Watched';
+        progressBarInner.setAttribute('aria-valuenow', 0);
         }
         
         // Initialize the rest of the application
