@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeLearn Hub - Test Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .test-section {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        .test-result {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 3px;
+        }
+        .success {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .error {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+        button {
+            padding: 8px 16px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        #editor-container {
+            height: 300px;
+            border: 1px solid #ccc;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>CodeLearn Hub - Component Tests</h1>
+
+    <!-- Auth Testing -->
+    <div class="test-section">
+        <h2>Authentication Tests</h2>
+        <button onclick="testRegister()">Test Register</button>
+        <button onclick="testLogin()">Test Login</button>
+        <button onclick="testLogout()">Test Logout</button>
+        <div id="auth-result" class="test-result"></div>
+    </div>
+
+    <!-- Progress Tracking Tests -->
+    <div class="test-section">
+        <h2>Progress Tracking Tests</h2>
+        <button onclick="testUpdateProgress()">Test Update Progress</button>
+        <button onclick="testGetProgress()">Test Get Progress</button>
+        <div id="progress-result" class="test-result"></div>
+    </div>
+
+    <!-- Code Editor Tests -->
+    <div class="test-section">
+        <h2>Code Editor Tests</h2>
+        <div id="editor-container"></div>
+        <button onclick="testEditor()">Test Editor</button>
+        <div id="editor-result" class="test-result"></div>
+    </div>
+
+    <!-- Database Tests -->
+    <div class="test-section">
+        <h2>Database Tests</h2>
+        <button onclick="testSaveTutorial()">Test Save Tutorial</button>
+        <button onclick="testGetTutorials()">Test Get Tutorials</button>
+        <div id="db-result" class="test-result"></div>
+    </div>
+
+    <!-- Service Worker Tests -->
+    <div class="test-section">
+        <h2>Service Worker Tests</h2>
+        <button onclick="testServiceWorker()">Test Service Worker</button>
+        <div id="sw-result" class="test-result"></div>
+    </div>
+
+    <script type="module">
+        import auth from './js/auth.js';
+        import progressTracker from './js/progress.js';
+        import CodeEditor from './js/editor.js';
+        import db from './js/database.js';
+
+        // Make components available globally for testing
+        window.auth = auth;
+        window.progressTracker = progressTracker;
+        window.CodeEditor = CodeEditor;
+        window.db = db;
+
+        // Initialize code editor
+        const editor = new CodeEditor('editor-container', {
+            language: 'javascript',
+            theme: 'monokai'
+        });
+        window.editor = editor;
+
+        // Test Functions
+        window.testRegister = async () => {
+            try {
+                const result = await auth.register('test@example.com', 'password123', 'testuser');
+                document.getElementById('auth-result').innerHTML = `
+                    <div class="success">Register successful: ${JSON.stringify(result)}</div>
+                `;
+            } catch (error) {
+                document.getElementById('auth-result').innerHTML = `
+                    <div class="error">Register failed: ${error.message}</div>
+                `;
+            }
+        };
+
+        window.testLogin = async () => {
+            try {
+                const result = await auth.login('test@example.com', 'password123');
+                document.getElementById('auth-result').innerHTML = `
+                    <div class="success">Login successful: ${JSON.stringify(result)}</div>
+                `;
+            } catch (error) {
+                document.getElementById('auth-result').innerHTML = `
+                    <div class="error">Login failed: ${error.message}</div>
+                `;
+            }
+        };
+
+        window.testLogout = () => {
+            try {
+                auth.logout();
+                document.getElementById('auth-result').innerHTML = `
+                    <div class="success">Logout successful</div>
+                `;
+            } catch (error) {
+                document.getElementById('auth-result').innerHTML = `
+                    <div class="error">Logout failed: ${error.message}</div>
+                `;
+            }
+        };
+
+        window.testUpdateProgress = async () => {
+            try {
+                progressTracker.updateProgress('tutorial-1', {
+                    started: true,
+                    completed: false
+                });
+                document.getElementById('progress-result').innerHTML = `
+                    <div class="success">Progress updated successfully</div>
+                `;
+            } catch (error) {
+                document.getElementById('progress-result').innerHTML = `
+                    <div class="error">Progress update failed: ${error.message}</div>
+                `;
+            }
+        };
+
+        window.testGetProgress = () => {
+            try {
+                const progress = progressTracker.getAllProgress();
+                document.getElementById('progress-result').innerHTML = `
+                    <div class="success">Progress retrieved: ${JSON.stringify(progress)}</div>
+                `;
+            } catch (error) {
+                document.getElementById('progress-result').innerHTML = `
+                    <div class="error">Progress retrieval failed: ${error.message}</div>
+                `;
+            }
+        };
+
+        window.testEditor = async () => {
+            try {
+                editor.setValue('console.log("Hello, World!");');
+                await editor.runCode();
+                document.getElementById('editor-result').innerHTML = `
+                    <div class="success">Editor test successful</div>
+                `;
+            } catch (error) {
+                document.getElementById('editor-result').innerHTML = `
+                    <div class="error">Editor test failed: ${error.message}</div>
+                `;
+            }
+        };
+
+        window.testSaveTutorial = async () => {
+            try {
+                const tutorial = {
+                    id: 'test-tutorial-1',
+                    title: 'Test Tutorial',
+                    language: 'javascript',
+                    difficulty: 'beginner'
+                };
+                await db.saveTutorial(tutorial);
+                document.getElementById('db-result').innerHTML = `
+                    <div class="success">Tutorial saved successfully</div>
+                `;
+            } catch (error) {
+                document.getElementById('db-result').innerHTML = `
+                    <div class="error">Tutorial save failed: ${error.message}</div>
+                `;
+            }
+        };
+
+        window.testGetTutorials = async () => {
+            try {
+                const tutorials = await db.getAllTutorials();
+                document.getElementById('db-result').innerHTML = `
+                    <div class="success">Tutorials retrieved: ${JSON.stringify(tutorials)}</div>
+                `;
+            } catch (error) {
+                document.getElementById('db-result').innerHTML = `
+                    <div class="error">Tutorial retrieval failed: ${error.message}</div>
+                `;
+            }
+        };
+
+        window.testServiceWorker = async () => {
+            try {
+                if ('serviceWorker' in navigator) {
+                    const registration = await navigator.serviceWorker.register('/js/service-worker.js');
+                    document.getElementById('sw-result').innerHTML = `
+                        <div class="success">Service Worker registered successfully</div>
+                    `;
+                } else {
+                    throw new Error('Service Workers not supported');
+                }
+            } catch (error) {
+                document.getElementById('sw-result').innerHTML = `
+                    <div class="error">Service Worker registration failed: ${error.message}</div>
+                `;
+            }
+        };
+    </script>
+</body>
+</html> 

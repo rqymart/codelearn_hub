@@ -1,0 +1,102 @@
+{
+    "title": "Java Tutorial for Beginners (Telusko)",
+    "videos": [
+        {
+            "id": "bm0OyhwFDuY",
+            "title": "Introduction",
+            "duration": "8:25",
+            "difficulty": "Beginner",
+            "desc": "What is Java?",
+            "code": "// Hello, World! program in Java\npublic class HelloWorld {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, World!\");\n    }\n}"
+        },
+        {
+            "id": "WRISYpKhIrc",
+            "title": "Setting up the Environment",
+            "duration": "14:09",
+            "difficulty": "Beginner",
+            "desc": "Installing JDK and IDE.",
+            "code": "// No code snippet for this video. It focuses on setting up the environment."
+        },
+        {
+            "id": "tSqNBjGacYk",
+            "title": "First Code & How Java Works",
+            "duration": "16:08",
+            "difficulty": "Beginner",
+            "desc": "Writing your first Java program, JVM basics.",
+            "code": "// Sample program to demonstrate Java execution\npublic class FirstProgram {\n    public static void main(String[] args) {\n        int a = 10;\n        int b = 20;\n        System.out.println(\"Sum: \" + (a + b));\n    }\n}"
+        },
+        {
+            "id": "NHrsLjhjmi4",
+            "title": "Variables & Data Types",
+            "duration": "18:44",
+            "difficulty": "Beginner",
+            "desc": "Primitive types and variable declaration.",
+            "code": "// Demonstrating variables and data types in Java\npublic class VariablesDemo {\n    public static void main(String[] args) {\n        int myNumber = 25;\n        double myDouble = 5.75;\n        char myChar = 'A';\n        boolean myBool = true;\n\n        System.out.println(\"Integer: \" + myNumber);\n        System.out.println(\"Double: \" + myDouble);\n        System.out.println(\"Character: \" + myChar);\n        System.out.println(\"Boolean: \" + myBool);\n    }\n}"
+        },
+        { "id": "9RCuKrze_-k", "title": "Literals", "duration": "10:04", "difficulty": "Beginner", "desc": "Understanding literals in Java." },
+        { "id": "Le25I331_yU", "title": "Type Conversion & Casting", "duration": "12:09", "difficulty": "Beginner", "desc": "Implicit and explicit type conversions." },
+        { "id": "iZXLCM5bzRI", "title": "Assignment Operators", "duration": "10:42", "difficulty": "Beginner", "desc": "Using assignment operators." },
+        { "id": "CPk8pffKV64", "title": "Relational Operators", "duration": "7:00", "difficulty": "Beginner", "desc": "Comparison operators in Java." },
+        { "id": "flWjzwzgybI", "title": "Logical Operators", "duration": "8:16", "difficulty": "Beginner", "desc": "AND, OR, NOT logical operators." },
+        { "id": "TEJpeRI_NEo", "title": "If Else Statement", "duration": "11:02", "difficulty": "Beginner", "desc": "Conditional execution with if-else." },
+        { "id": "hLimYJZQ2kc", "title": "If Else If Statement", "duration": "6:31", "difficulty": "Beginner", "desc": "Handling multiple conditions." },
+        { "id": "74Q7POjS7mQ", "title": "Ternary Operator", "duration": "5:27", "difficulty": "Beginner", "desc": "Using the conditional ternary operator." },
+        { "id": "Tn6BNLD0PmU", "title": "Switch Statement", "duration": "10:55", "difficulty": "Beginner", "desc": "Using the switch statement." },
+        { "id": "kBdZBbWZ2a4", "title": "While Loop", "duration": "6:56", "difficulty": "Beginner", "desc": "Iteration using the while loop." },
+        { "id": "IrQKDdptiw8", "title": "Do While Loop", "duration": "5:35", "difficulty": "Beginner", "desc": "Using the do-while loop." },
+        { "id": "AZb1wLIQ1R4", "title": "For Loop", "duration": "10:45", "difficulty": "Beginner", "desc": "Iteration using the for loop." },
+        { "id": "mh3sTmXWMLE", "title": "Break and Continue", "duration": "6:03", "difficulty": "Beginner", "desc": "Controlling loop execution." },
+        { "id": "mzt5tmV7wxI", "title": "Classes and Objects", "duration": "14:27", "difficulty": "Beginner", "desc": "Introduction to OOP concepts." },
+        { "id": "zzBVTwpfYr0", "title": "JDK, JRE, JVM", "duration": "11:53", "difficulty": "Beginner", "desc": "Understanding the Java platform components." },
+        { "id": "gu6Agiy2xBg", "title": "Methods", "duration": "12:48", "difficulty": "Beginner", "desc": "Defining and calling methods." },
+        { "id": "uO5nSTJ9Iz4", "title": "Method Overloading", "duration": "10:40", "difficulty": "Beginner", "desc": "Creating methods with the same name." }
+    ],
+    "exercises": {
+        "bm0OyhwFDuY": {
+            "description": "Write a Java program to display 'Hello, World!'",
+            "starterCode": {
+                "java": "public class Main {\n    public static void main(String[] args) {\n        // Write your code here\n    }\n}",
+                "python": "print('Hello, World!')",
+                "javascript": "console.log('Hello, World!');"
+            }
+        },
+        "tSqNBjGacYk": {
+            "description": "Create a Java program that adds two numbers and displays the result.",
+            "starterCode": {
+                "java": "public class Main {\n    public static void main(String[] args) {\n        // Write your code here\n    }\n}",
+                "python": "# Write your code here",
+                "javascript": "// Write your code here"
+            }
+        },
+        "8cm1xRXb1Io": {
+            "description": "Write a Java program to display 'Hello, World!'",
+            "starterCode": {
+                "java": "public class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, World!\");\n    }\n}",
+                "python": "print('Hello, World!')",
+                "javascript": "console.log('Hello, World!');",
+                "php": "<?php echo 'Hello, World!'; ?>",
+                "html": "<!DOCTYPE html>\n<html>\n<body>\n<h1>Hello, World!</h1>\n</body>\n</html>"
+            }
+        },
+        "hBh_CC5y8-s": {
+            "description": "Create a Java program that demonstrates basic variable declaration and printing.",
+            "starterCode": {
+                "java": "public class Main {\n    public static void main(String[] args) {\n        String name = \"John\";\n        int age = 25;\n        System.out.println(\"Name: \" + name);\n        System.out.println(\"Age: \" + age);\n    }\n}",
+                "python": "name = 'John'\nage = 25\nprint(f'Name: {name}')\nprint(f'Age: {age}')",
+                "javascript": "let name = 'John';\nlet age = 25;\nconsole.log(`Name: ${name}`);\nconsole.log(`Age: ${age}`);",
+                "php": "<?php\n$name = 'John';\n$age = 25;\necho \"Name: $name\\n\";\necho \"Age: $age\";\n?>",
+                "html": "<!DOCTYPE html>\n<html>\n<body>\n<p id=\"output\"></p>\n<script>\n    let name = 'John';\n    let age = 25;\n    document.getElementById('output').innerHTML = `Name: ${name}<br>Age: ${age}`;\n</script>\n</body>\n</html>"
+            }
+        },
+        "gQl3DqCgXYY": {
+            "description": "Write a Java program to perform basic arithmetic operations.",
+            "starterCode": {
+                "java": "public class Main {\n    public static void main(String[] args) {\n        int a = 10, b = 5;\n        System.out.println(\"Addition: \" + (a + b));\n        System.out.println(\"Subtraction: \" + (a - b));\n        System.out.println(\"Multiplication: \" + (a * b));\n        System.out.println(\"Division: \" + ((double)a / b));\n    }\n}",
+                "python": "a = 10\nb = 5\nprint(f'Addition: {a + b}')\nprint(f'Subtraction: {a - b}')\nprint(f'Multiplication: {a * b}')\nprint(f'Division: {a / b}')",
+                "javascript": "let a = 10, b = 5;\nconsole.log(`Addition: ${a + b}`);\nconsole.log(`Subtraction: ${a - b}`);\nconsole.log(`Multiplication: ${a * b}`);\nconsole.log(`Division: ${a / b}`);",
+                "php": "<?php\n$a = 10;\n$b = 5;\necho \"Addition: \" . ($a + $b) . \"\\n\";\necho \"Subtraction: \" . ($a - $b) . \"\\n\";\necho \"Multiplication: \" . ($a * $b) . \"\\n\";\necho \"Division: \" . ($a / $b) . \"\\n\";\n?>",
+                "html": "<!DOCTYPE html>\n<html>\n<body>\n<p id=\"output\"></p>\n<script>\n    let a = 10, b = 5;\n    let output = `Addition: ${a + b}<br>Subtraction: ${a - b}<br>Multiplication: ${a * b}<br>Division: ${a / b}`;\n    document.getElementById('output').innerHTML = output;\n</script>\n</body>\n</html>"
+            }
+        }
+    }
+}

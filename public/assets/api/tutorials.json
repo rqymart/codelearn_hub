@@ -1,0 +1,39 @@
+[
+    {
+      "id": "python-basics",
+      "title": "Python Basics",
+      "language": "python",
+      "difficulty": "easy",
+      "image": "python.jpg",
+      "description": "Learn Python from scratch, covering basic syntax and concepts.",
+      "videos": [
+        {"id": "YYXdXT2l-Gg", "title": "Python Introduction"},
+        {"id": "H1elmMBnykA", "title": "Variables and Data Types"}
+      ]
+    },
+    
+    {
+      "id": "web-development",
+      "title": "Web Development",
+      "language": "web",
+      "difficulty": "hard",
+      "image": "webdev.jpg",
+      "description": "Master HTML, CSS, and JavaScript in this comprehensive course.",
+      "videos": [
+        {"id": "qz0aGYrrlhU", "title": "HTML Crash Course"},
+        {"id": "1Rs2ND1ryYc", "title": "CSS Fundamentals"}
+      ]
+    },
+    {
+      "id": "java-fundamentals",
+      "title": "Java Fundamentals",
+      "language": "java",
+      "difficulty": "easy",
+      "image": "java.png",
+      "description": "Learn core Java programming concepts and OOP principles.",
+      "videos": [
+        {"id": "grEKMHGYyns", "title": "Java Introduction"},
+        {"id": "hBh_CC5y8-s", "title": "Variables and Data Types"}
+      ]
+    }
+  ]

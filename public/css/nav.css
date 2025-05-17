@@ -1,0 +1,126 @@
+/* Navigation Styles */
+:root {
+  /* Dark mode (default) */
+  --header-background: rgba(21, 21, 21, 0.95);
+  --text-color: #d4d4d4;
+  --border-color: #3c3c3c;
+  --primary-color: #00ff9d;
+  --comment-color: #6a9955;
+}
+
+/* Light mode */
+.light-mode {
+  --header-background: rgba(250, 247, 243, 0.95);
+  --text-color: #2c2c2c;
+  --border-color: #d4c9b9;
+  --primary-color: #2d6a4f;
+  --comment-color: #40916c;
+}
+
+.header {
+  background-color: var(--header-background);
+  padding: 1rem 2rem;
+  border-bottom: 1px solid var(--border-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  will-change: transform;
+  transform: translateZ(0);
+}
+
+.logo {
+  font-family: var(--code-font);
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  text-shadow: 0 0 10px rgba(0, 255, 157, 0.3);
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav a {
+  color: var(--text-color);
+  text-decoration: none;
+  margin-left: 2rem;
+  font-weight: normal;
+  font-family: var(--code-font);
+  transition: color var(--transition-speed);
+  position: relative;
+}
+
+.nav a:hover {
+  color: var(--primary-color);
+}
+
+.nav a::after {
+  content: ';';
+  position: absolute;
+  right: -1rem;
+  color: var(--comment-color);
+  opacity: 0;
+  transition: opacity var(--transition-speed);
+}
+
+.nav a:hover::after {
+  opacity: 1;
+}
+
+.nav a.active {
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+}
+
+/* Dark mode toggle button */
+.dark-mode-toggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: all var(--transition-speed);
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin-left: 1rem;
+}
+
+.dark-mode-toggle:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  transform: scale(1.1);
+}
+
+.light-mode .dark-mode-toggle:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Ensure the button is visible in both themes */
+.dark-mode-toggle {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Add smooth transition for theme changes */
+body {
+  transition: background-color var(--transition-speed), color var(--transition-speed);
+}
+
+/* Ensure header has proper z-index and background */
+.header {
+  z-index: 1000;
+  background-color: var(--header-background);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+} 
