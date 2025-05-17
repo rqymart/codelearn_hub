@@ -1,0 +1,91 @@
+MIT License
+
+Copyright (c) 2024 CodeLearn Hub
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+1. The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+2. Attribution Requirements:
+   - You must retain the original copyright notice and attribution to CodeLearn Hub
+   - You must include a link to the original repository in your project
+   - You must acknowledge the original authors in your documentation
+
+3. Usage Restrictions:
+   - The Software may not be used for any illegal purposes
+   - The Software may not be used to create competing services
+   - The Software may not be used to violate any third-party rights
+
+4. Additional Terms for Educational Use:
+   - Educational institutions may use the Software for teaching purposes
+   - Students may use the Software for learning and personal projects
+   - Commercial use in educational settings requires written permission
+
+5. Additional Terms for Commercial Use:
+   - Commercial use requires written permission from CodeLearn Hub
+   - Commercial users must maintain proper attribution
+   - Commercial users must comply with all applicable laws and regulations
+
+6. Disclaimer of Warranty:
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+
+7. Third-Party Components:
+   This Software includes third-party components that are subject to their own
+   licenses. Users must comply with all applicable third-party licenses.
+
+8. Termination:
+   This license automatically terminates if you fail to comply with any of its
+   terms and conditions.
+
+For questions about licensing or commercial use, please contact:
+- Email: [Your Contact Email]
+- GitHub: [Your GitHub Profile]
+- Website: [Your Website]
+
+Last updated: [Current Date] 
+
+ => FREE HTML TEMPLATE LICENSE BY HTML Codex
+
+ All free HTML templates by HTML Codex are licensed under a Creative Commons Attribution 4.0 International License which means you are not allowed to remove the author's credit link/attribution link/backlink.
+
+ When you download or use our free HTML templates, it will attribute the following conditions.
+
+
+ => YOU ARE ALLOWED
+
+      1. You are allowed to use for your personal and commercial purposes.
+
+      2. You are allowed to modify/customize however you like.
+
+      3. You are allowed to convert/port for use for any CMS.
+
+      4. You are allowed to share/distribute under the HTML Codex brand name.
+
+      5. You are allowed to put a screenshot or a link on your blog posts or any other websites.
+
+
+ => YOU ARE NOT ALLOWED
+
+      1. You are not allowed to remove the author's credit link/attribution link/backlink without purchasing Credit Removal License ( https://htmlcodex.com/credit-removal ).
+
+      2. You are not allowed to sell, resale, rent, lease, license, or sub-license.
+
+      3. You are not allowed to upload on your template websites or template collection websites or any other third party websites without our permission.
+
+ This license can be terminated if you breach any of these conditions.
+
+ Please contact us (https://htmlcodex.com/contact) if you have any query.
+
+ => PURCHASE CREDIT REMOVAL LICENSE ( https://htmlcodex.com/credit-removal )

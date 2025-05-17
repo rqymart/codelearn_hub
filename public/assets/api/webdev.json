@@ -1,0 +1,68 @@
+{
+    "title": "Web Design 101 (Flux Academy)",
+    "videos": [
+        { "id": "j6Ule7GXaRs", "title": "Intro to Web Design", "duration": "4:36", "difficulty": "Beginner", "desc": "Learn what this web design course covers and how it will benefit you." },
+        { "id": "3PHXvlpOkf4", "title": "Elements of Web Design", "duration": "14:12", "difficulty": "Beginner", "desc": "Understand the fundamental elements of web design." },
+        { "id": "C72WkcUZvco", "title": "Intro to Web Design", "duration": "11:08", "difficulty": "Beginner", "desc": "What is web design and its importance?",
+            "code": "<!DOCTYPE html>\n<html>\n<head>\n    <title>My First Web Page</title>\n</head>\n<body>\n    <h1>Welcome to Web Design!</h1>\n    <p>This is a simple HTML page.</p>\n</body>\n</html>"
+        },
+        { "id": "R_gFhRsWLMw", "title": "Elements of Web Design", "duration": "15:27", "difficulty": "Beginner", "desc": "Layout, color, typography, imagery.",
+            "code": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Web Design Elements</title>\n    <style>\n        body {\n            font-family: Arial, sans-serif;\n            color: #333;\n            line-height: 1.6;\n        }\n    </style>\n</head>\n<body>\n    <h1>Web Design Elements</h1>\n    <p>Understanding layout, color, typography, and imagery.</p>\n</body>\n</html>"
+        },
+        { "id": "mQeplLGXIY4", "title": "Web Design Process", "duration": "18:01", "difficulty": "Beginner", "desc": "Discovery, planning, design, development, launch." },
+        { "id": "OUp7ale49lI", "title": "Defining Project Scope", "duration": "14:16", "difficulty": "Beginner", "desc": "Understanding project goals and constraints." },
+        { "id": "BN8pC91rJaU", "title": "Content Strategy", "duration": "13:09", "difficulty": "Beginner", "desc": "Planning and organizing website content." },
+        { "id": "TDRhwSfxYkg", "title": "Sitemaps & User Flows", "duration": "15:08", "difficulty": "Beginner", "desc": "Structuring navigation and user paths." },
+        { "id": "UuPt4RpV4Xc", "title": "Wireframing", "duration": "21:21", "difficulty": "Beginner", "desc": "Creating low-fidelity blueprints of pages." },
+        { "id": "kOJ4c5THLQk", "title": "Visual Design Principles", "duration": "15:50", "difficulty": "Beginner", "desc": "Contrast, repetition, alignment, proximity (CRAP)." },
+        { "id": "x3Yno9VUYBY", "title": "Color Theory", "duration": "20:47", "difficulty": "Beginner", "desc": "Using color effectively in web design." },
+        { "id": "flAcHu-squc", "title": "Typography", "duration": "22:48", "difficulty": "Beginner", "desc": "Choosing and pairing fonts for readability." },
+        { "id": "8A6MxYNooYA", "title": "User Interface (UI) Design", "duration": "18:53", "difficulty": "Beginner", "desc": "Designing intuitive and usable interfaces." },
+        { "id": "Cn2KgB_01mE", "title": "Layout & Composition", "duration": "17:31", "difficulty": "Beginner", "desc": "Arranging elements effectively on the page." },
+        { "id": "ZbQxX7v_dfo", "title": "Responsive Design", "duration": "16:36", "difficulty": "Beginner", "desc": "Designing for different screen sizes." },
+        { "id": "l5orEmE7Pq8", "title": "Design Systems & Style Guides", "duration": "13:11", "difficulty": "Intermediate", "desc": "Creating consistent design rules." },
+        { "id": "lQzmGrUQUDc", "title": "Design Tools (Figma Basics)", "duration": "19:35", "difficulty": "Beginner", "desc": "Introduction to using Figma for design." },
+        { "id": "ZliIs7jHi1s", "title": "User Experience (UX) Design", "duration": "17:12", "difficulty": "Beginner", "desc": "Focusing on the user's overall experience." },
+        { "id": "FYOxoJbngAM", "title": "Accessibility (a11y)", "duration": "16:01", "difficulty": "Intermediate", "desc": "Designing for users with disabilities." },
+        { "id": "fqDTN24HQqg", "title": "Working With Developers", "duration": "11:26", "difficulty": "Beginner", "desc": "Handing off designs and collaborating." },
+        { "id": "z2t6eRuwbFA", "title": "Portfolio & Career Tips", "duration": "18:17", "difficulty": "Beginner", "desc": "Building your portfolio and finding work." }
+    ],
+    "exercises": {
+        "j6Ule7GXaRs": {
+            "description": "Create a simple HTML page with a heading and paragraph.",
+            "starterCode": {
+                "html": "<!DOCTYPE html>\n<html>\n<head>\n    <title>My First Web Page</title>\n</head>\n<body>\n    <h1>Welcome to Web Design</h1>\n    <p>This is my first web page created with HTML.</p>\n</body>\n</html>",
+                "python": "print('<!DOCTYPE html>')\nprint('<html>')\nprint('<head>')\nprint('    <title>My First Web Page</title>')\nprint('</head>')\nprint('<body>')\nprint('    <h1>Welcome to Web Design</h1>')\nprint('    <p>This is my first web page created with HTML.</p>')\nprint('</body>')\nprint('</html>')",
+                "javascript": "console.log('<!DOCTYPE html>');\nconsole.log('<html>');\nconsole.log('<head>');\nconsole.log('    <title>My First Web Page</title>');\nconsole.log('</head>');\nconsole.log('<body>');\nconsole.log('    <h1>Welcome to Web Design</h1>');\nconsole.log('    <p>This is my first web page created with HTML.</p>');\nconsole.log('</body>');\nconsole.log('</html>');",
+                "php": "<?php\necho '<!DOCTYPE html>';\necho '<html>';\necho '<head>';\necho '    <title>My First Web Page</title>';\necho '</head>';\necho '<body>';\necho '    <h1>Welcome to Web Design</h1>';\necho '    <p>This is my first web page created with HTML.</p>';\necho '</body>';\necho '</html>';\n?>",
+                "java": "public class Main {\n    public static void main(String[] args) {\n        System.out.println(\"<!DOCTYPE html>\");\n        System.out.println(\"<html>\");\n        System.out.println(\"<head>\");\n        System.out.println(\"    <title>My First Web Page</title>\");\n        System.out.println(\"</head>\");\n        System.out.println(\"<body>\");\n        System.out.println(\"    <h1>Welcome to Web Design</h1>\");\n        System.out.println(\"    <p>This is my first web page created with HTML.</p>\");\n        System.out.println(\"</body>\");\n        System.out.println(\"</html>\");\n    }\n}"
+            }
+        },
+        "3PHXvlpOkf4": {
+            "description": "Create a styled web page with CSS.",
+            "starterCode": {
+                "html": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Styled Web Page</title>\n    <style>\n        body {\n            font-family: Arial, sans-serif;\n            margin: 40px;\n            background-color: #f0f0f0;\n        }\n        h1 {\n            color: #333;\n            text-align: center;\n        }\n        p {\n            color: #666;\n            line-height: 1.6;\n        }\n    </style>\n</head>\n<body>\n    <h1>Welcome to My Styled Page</h1>\n    <p>This page demonstrates basic CSS styling.</p>\n</body>\n</html>",
+                "python": "print('<!DOCTYPE html>')\nprint('<html>')\nprint('<head>')\nprint('    <title>Styled Web Page</title>')\nprint('    <style>')\nprint('        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f0f0f0; }')\nprint('        h1 { color: #333; text-align: center; }')\nprint('        p { color: #666; line-height: 1.6; }')\nprint('    </style>')\nprint('</head>')\nprint('<body>')\nprint('    <h1>Welcome to My Styled Page</h1>')\nprint('    <p>This page demonstrates basic CSS styling.</p>')\nprint('</body>')\nprint('</html>')",
+                "javascript": "console.log('<!DOCTYPE html>');\nconsole.log('<html>');\nconsole.log('<head>');\nconsole.log('    <title>Styled Web Page</title>');\nconsole.log('    <style>');\nconsole.log('        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f0f0f0; }');\nconsole.log('        h1 { color: #333; text-align: center; }');\nconsole.log('        p { color: #666; line-height: 1.6; }');\nconsole.log('    </style>');\nconsole.log('</head>');\nconsole.log('<body>');\nconsole.log('    <h1>Welcome to My Styled Page</h1>');\nconsole.log('    <p>This page demonstrates basic CSS styling.</p>');\nconsole.log('</body>');\nconsole.log('</html>');",
+                "php": "<?php\necho '<!DOCTYPE html>';\necho '<html>';\necho '<head>';\necho '    <title>Styled Web Page</title>';\necho '    <style>';\necho '        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f0f0f0; }';\necho '        h1 { color: #333; text-align: center; }';\necho '        p { color: #666; line-height: 1.6; }';\necho '    </style>';\necho '</head>';\necho '<body>';\necho '    <h1>Welcome to My Styled Page</h1>';\necho '    <p>This page demonstrates basic CSS styling.</p>';\necho '</body>';\necho '</html>';\n?>",
+                "java": "public class Main {\n    public static void main(String[] args) {\n        System.out.println(\"<!DOCTYPE html>\");\n        System.out.println(\"<html>\");\n        System.out.println(\"<head>\");\n        System.out.println(\"    <title>Styled Web Page</title>\");\n        System.out.println(\"    <style>\");\n        System.out.println(\"        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f0f0f0; }\");\n        System.out.println(\"        h1 { color: #333; text-align: center; }\");\n        System.out.println(\"        p { color: #666; line-height: 1.6; }\");\n        System.out.println(\"    </style>\");\n        System.out.println(\"</head>\");\n        System.out.println(\"<body>\");\n        System.out.println(\"    <h1>Welcome to My Styled Page</h1>\");\n        System.out.println(\"    <p>This page demonstrates basic CSS styling.</p>\");\n        System.out.println(\"</body>\");\n        System.out.println(\"</html>\");\n    }\n}"
+            }
+        },
+        "C72WkcUZvco": {
+            "description": "Create a simple HTML page with a heading and paragraph.",
+            "starterCode": {
+                "html": "<!DOCTYPE html>\n<html>\n<head>\n    <title>My First Web Page</title>\n</head>\n<body>\n    <!-- Write your code here -->\n</body>\n</html>",
+                "javascript": "// Create a simple web page using JavaScript\ndocument.write('<h1>My First Web Page</h1>');\ndocument.write('<p>This is a paragraph.</p>');",
+                "python": "print('<!DOCTYPE html>')\nprint('<html>')\nprint('<head>')\nprint('    <title>My First Web Page</title>')\nprint('</head>')\nprint('<body>')\nprint('    <!-- Write your code here -->')\nprint('</body>')\nprint('</html>')"
+            }
+        },
+        "R_gFhRsWLMw": {
+            "description": "Create a styled web page using HTML and CSS.",
+            "starterCode": {
+                "html": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Styled Web Page</title>\n    <style>\n        /* Write your CSS here */\n    </style>\n</head>\n<body>\n    <!-- Write your HTML here -->\n</body>\n</html>",
+                "javascript": "// Create a styled web page using JavaScript\ndocument.write('<style>body { font-family: Arial; }</style>');\ndocument.write('<h1>Styled Web Page</h1>');",
+                "python": "print('<!DOCTYPE html>')\nprint('<html>')\nprint('<head>')\nprint('    <title>Styled Web Page</title>')\nprint('    <style>')\nprint('        /* Write your CSS here */')\nprint('    </style>')\nprint('</head>')\nprint('<body>')\nprint('    <!-- Write your HTML here -->')\nprint('</body>')\nprint('</html>')"
+            }
+        }
+    }
+}

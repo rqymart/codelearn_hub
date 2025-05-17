@@ -1,0 +1,68 @@
+{
+    "title": "PHP Course for Beginners (Dani Krossing)",
+    "videos": [
+        { "id": "BUCiSSyIG_g", "title": "Introduction to PHP", "duration": "4:36", "difficulty": "Beginner", "desc": "Learn what this PHP course covers and how it will benefit you." },
+        { "id": "2eebptXZiII", "title": "Installing XAMPP", "duration": "14:12", "difficulty": "Beginner", "desc": "Set up your development environment with XAMPP." },
+        { "id": "3Dm42d41s7A", "title": "PHP Syntax", "duration": "12:07", "difficulty": "Beginner", "desc": "Learn the basic syntax of PHP programming." },
+        { "id": "7YCFg9gyMjE", "title": "PHP Syntax", "duration": "16:00", "difficulty": "Beginner", "desc": "Basic PHP syntax and embedding in HTML.", "code": "<?php\n// This is a PHP comment\necho 'Hello, World!';\n?>" },
+        { "id": "FLs6rAVQWs0", "title": "Comments & Variables", "duration": "21:11", "difficulty": "Beginner", "desc": "Using comments and declaring variables." },
+        { "id": "MujfofukfwQ", "title": "Data Types", "duration": "16:21", "difficulty": "Beginner", "desc": "Understanding different data types in PHP." },
+        { "id": "bOqTCDfc7Tk", "title": "Strings", "duration": "14:05", "difficulty": "Beginner", "desc": "Working with string manipulation functions." },
+        { "id": "oY91DwQyGlI", "title": "Operators", "duration": "20:06", "difficulty": "Beginner", "desc": "Arithmetic, assignment, comparison, logical operators." },
+        { "id": "OlvCP8kHjvs", "title": "Conditional Statements", "duration": "20:26", "difficulty": "Beginner", "desc": "Using if, else, and elseif statements." },
+        { "id": "vjw5UmY7g9M", "title": "Switch Statement", "duration": "9:24", "difficulty": "Beginner", "desc": "Using the switch statement for multiple conditions." },
+        { "id": "D7mqV-p1kEc", "title": "While & Do While Loops", "duration": "11:48", "difficulty": "Beginner", "desc": "Implementing while and do-while loops." },
+        { "id": "vxSkDk6x9-o", "title": "For & Foreach Loops", "duration": "17:13", "difficulty": "Beginner", "desc": "Using for and foreach loops for iteration." },
+        { "id": "jiTI33oeKzU", "title": "User-defined Functions", "duration": "19:10", "difficulty": "Beginner", "desc": "Creating and using your own functions." },
+        { "id": "YIM6OLBMyY8", "title": "Variable Scope", "duration": "16:05", "difficulty": "Beginner", "desc": "Understanding local and global variable scope." },
+        { "id": "EbdQjdXw6XQ", "title": "Constants", "duration": "6:58", "difficulty": "Beginner", "desc": "Defining and using constants." },
+        { "id": "g7h5ndxKV9U", "title": "Built-in Functions", "duration": "16:03", "difficulty": "Beginner", "desc": "Exploring useful built-in PHP functions." },
+        { "id": "H2XtR1zwg6s", "title": "Arrays", "duration": "17:52", "difficulty": "Beginner", "desc": "Working with indexed and associative arrays." },
+        { "id": "KMYZqb88Wm0", "title": "Array Functions", "duration": "15:54", "difficulty": "Beginner", "desc": "Using built-in functions for arrays." },
+        { "id": "s-gc9CvbJ0M", "title": "Superglobals - GET", "duration": "23:22", "difficulty": "Intermediate", "desc": "Understanding and using the $_GET superglobal." },
+        { "id": "LiK0mhBbhbc", "title": "Superglobals - POST", "duration": "23:05", "difficulty": "Intermediate", "desc": "Understanding and using the $_POST superglobal." },
+        { "id": "tHKsZdS8Oug", "title": "Error Handling", "duration": "13:04", "difficulty": "Intermediate", "desc": "Basic error handling techniques in PHP." },
+        { "id": "7ALVC1eWgdI", "title": "Calculator Project Pt. 1", "duration": "22:01", "difficulty": "Intermediate", "desc": "Building a simple calculator - HTML/CSS." },
+        { "id": "IagGGcC95Ig", "title": "Calculator Project Pt. 2", "duration": "19:29", "difficulty": "Intermediate", "desc": "Building a simple calculator - PHP logic." },
+        { "id": "9Mkd4ig3yjE", "title": "Include & Require", "duration": "17:52", "difficulty": "Intermediate", "desc": "Using include and require statements." },
+        { "id": "i3UcDdOcodc", "title": "Sessions", "duration": "26:16", "difficulty": "Intermediate", "desc": "Working with PHP sessions for user state." },
+        { "id": "JAgd_L3GhI0", "title": "Session Security", "duration": "35:13", "difficulty": "Intermediate", "desc": "Best practices for securing PHP sessions." },
+        { "id": "FbLYsTHJKDw", "title": "Hashing Passwords", "duration": "25:15", "difficulty": "Intermediate", "desc": "Securely storing passwords using hashing." },
+        { "id": "N8pHSP3ob7o", "title": "Database Intro & Setup", "duration": "32:34", "difficulty": "Intermediate", "desc": "Introduction to databases and setting up MySQL." },
+        { "id": "Ojk70Ag8Ofs", "title": "MySQLi Introduction", "duration": "24:33", "difficulty": "Intermediate", "desc": "Connecting to MySQL using the MySQLi extension." },
+        { "id": "XDz9SMYyTQo", "title": "Prepared Statements (MySQLi)", "duration": "32:53", "difficulty": "Intermediate", "desc": "Using prepared statements with MySQLi for security." },
+        { "id": "yrFr5PMdk2A", "title": "PDO Introduction", "duration": "32:19", "difficulty": "Intermediate", "desc": "Connecting to databases using PDO." }
+    ],
+    "exercises": {
+        "BUCiSSyIG_g": {
+            "description": "Write a PHP program to display 'Hello, World!'",
+            "starterCode": {
+                "php": "<?php echo 'Hello, World!'; ?>",
+                "python": "print('Hello, World!')",
+                "javascript": "console.log('Hello, World!');",
+                "java": "public class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, World!\");\n    }\n}",
+                "html": "<!DOCTYPE html>\n<html>\n<body>\n<h1>Hello, World!</h1>\n</body>\n</html>"
+            }
+        },
+        "2eebptXZiII": {
+            "description": "Create a simple PHP page that displays the current date and time.",
+            "starterCode": {
+                "php": "<?php\necho 'Current date and time: ' . date('Y-m-d H:i:s');\n?>",
+                "python": "from datetime import datetime\nprint('Current date and time:', datetime.now().strftime('%Y-%m-%d %H:%M:%S'))",
+                "javascript": "console.log('Current date and time:', new Date().toLocaleString());",
+                "java": "import java.time.LocalDateTime;\nimport java.time.format.DateTimeFormatter;\n\npublic class Main {\n    public static void main(String[] args) {\n        LocalDateTime now = LocalDateTime.now();\n        DateTimeFormatter formatter = DateTimeFormatter.ofPattern(\"yyyy-MM-dd HH:mm:ss\");\n        System.out.println(\"Current date and time: \" + now.format(formatter));\n    }\n}",
+                "html": "<!DOCTYPE html>\n<html>\n<body>\n<p id=\"datetime\"></p>\n<script>\n    document.getElementById('datetime').textContent = 'Current date and time: ' + new Date().toLocaleString();\n</script>\n</body>\n</html>"
+            }
+        },
+        "3Dm42d41s7A": {
+            "description": "Write a PHP program to demonstrate variables and basic arithmetic.",
+            "starterCode": {
+                "php": "<?php\n$a = 10;\n$b = 5;\n$sum = $a + $b;\n$diff = $a - $b;\necho \"Sum: $sum\\n\";\necho \"Difference: $diff\";\n?>",
+                "python": "a = 10\nb = 5\nsum = a + b\ndiff = a - b\nprint(f'Sum: {sum}')\nprint(f'Difference: {diff}')",
+                "javascript": "let a = 10;\nlet b = 5;\nlet sum = a + b;\nlet diff = a - b;\nconsole.log(`Sum: ${sum}`);\nconsole.log(`Difference: ${diff}`);",
+                "java": "public class Main {\n    public static void main(String[] args) {\n        int a = 10, b = 5;\n        int sum = a + b;\n        int diff = a - b;\n        System.out.println(\"Sum: \" + sum);\n        System.out.println(\"Difference: \" + diff);\n    }\n}",
+                "html": "<!DOCTYPE html>\n<html>\n<body>\n<p id=\"output\"></p>\n<script>\n    let a = 10, b = 5;\n    let sum = a + b;\n    let diff = a - b;\n    document.getElementById('output').innerHTML = `Sum: ${sum}<br>Difference: ${diff}`;\n</script>\n</body>\n</html>"
+            }
+        }
+    }
+}

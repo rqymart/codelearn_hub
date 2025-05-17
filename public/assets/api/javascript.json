@@ -1,0 +1,42 @@
+{
+    "title": "JavaScript Tutorial for Beginners (freeCodeCamp)",
+    "description": "Learn the basics of JavaScript programming",
+    "videos": [
+        {
+            "id": "PkZNo7MFNFg",
+            "title": "Introduction",
+            "duration": "4:36",
+            "difficulty": "Beginner",
+            "desc": "Learn what this JavaScript course covers and how it will benefit you."
+        },
+        {
+            "id": "W6NZfCO5SIk",
+            "title": "JavaScript Basics",
+            "duration": "14:12",
+            "difficulty": "Beginner",
+            "desc": "Get started with JavaScript by learning the basics of the language."
+        }
+    ],
+    "exercises": {
+        "PkZNo7MFNFg": {
+            "description": "Write a JavaScript program to display 'Hello, World!'",
+            "starterCode": {
+                "javascript": "console.log('Hello, World!');",
+                "python": "print('Hello, World!')",
+                "java": "public class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, World!\");\n    }\n}",
+                "php": "<?php echo 'Hello, World!'; ?>",
+                "html": "<!DOCTYPE html>\n<html>\n<body>\n<h1>Hello, World!</h1>\n</body>\n</html>"
+            }
+        },
+        "W6NZfCO5SIk": {
+            "description": "Write a JavaScript program to calculate the sum of two numbers.",
+            "starterCode": {
+                "javascript": "let a = 5;\nlet b = 10;\nconsole.log(a + b);",
+                "python": "a = 5\nb = 10\nprint(a + b)",
+                "java": "public class Main {\n    public static void main(String[] args) {\n        int a = 5;\n        int b = 10;\n        System.out.println(a + b);\n    }\n}",
+                "php": "<?php\n$a = 5;\n$b = 10;\necho $a + $b;\n?>",
+                "html": "<!DOCTYPE html>\n<html>\n<body>\n<p>5 + 10 = <span id=\"result\"></span></p>\n<script>\n    document.getElementById('result').textContent = 5 + 10;\n</script>\n</body>\n</html>"
+            }
+        }
+    }
+}

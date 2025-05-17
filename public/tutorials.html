@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CodeLearn Hub - Tutorials</title>
+  <link rel="stylesheet" href="css/nav.css"/>
+  <link rel="stylesheet" href="css/tutorials.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">🚀 CodeLearn Hub</div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="tutorials.html" class="active">Tutorials</a>
+      <a href="bookmarks.html">Bookmarks</a>
+      <a href="settings.html"><i class="fas fa-cog"></i> Settings</a>
+    </nav>
+  </header>
+
+  <main class="tutorials-container">
+    <section class="filters">
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search tutorials...">
+        <button class="search-btn">🔍</button>
+      </div>
+      
+      <div class="filter-options">
+        <select id="languageFilter">
+          <option value="">All Languages</option>
+          <option value="python">Python</option>
+          <option value="javascript">JavaScript</option>
+          <option value="cpp">C++</option>
+          <option value="flutter">Flutter</option>
+        </select>
+        
+        <select id="difficultyFilter">
+          <option value="">All Levels</option>
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="tutorials-grid">
+      <!-- Tutorial cards will be dynamically populated -->
+    </section>
+
+    <div class="loading-spinner" style="display: none;">
+      <div class="spinner"></div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3><i class="fas fa-share-alt"></i> Connect With Us</h3>
+        <div class="footer-social">
+          <a href="https://github.com/rqymart" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.facebook.com/raymart.quinto.2024" target="_blank" aria-label="Facebook">
+            <i class="fab fa-facebook"></i>
+            <span>Facebook</span>
+          </a>
+          <a href="https://www.instagram.com/mar_tyyy13" target="_blank" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+            <span>Instagram</span>
+          </a>
+          <a href="https://twitter.com/yourusername" target="_blank" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+            <span>Twitter</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h3><i class="fas fa-link"></i> Quick Links</h3>
+        <div class="footer-links">
+          <a href="tutorials.html"><i class="fas fa-graduation-cap"></i> Tutorials</a>
+          <a href="bookmarks.html"><i class="fas fa-bookmark"></i> Bookmarks</a>
+          <a href="login.html"><i class="fas fa-sign-in-alt"></i> Login</a>
+          <a href="signup.html"><i class="fas fa-user-plus"></i> Sign Up</a>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h3><i class="fas fa-shield-alt"></i> Legal</h3>
+        <div class="footer-links">
+          <a href="privacy-policy.html"><i class="fas fa-user-shield"></i> Privacy Policy</a>
+          <a href="terms-of-service.html"><i class="fas fa-file-contract"></i> Terms of Service</a>
+          <a href="cookie-policy.html"><i class="fas fa-cookie"></i> Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2024 CodeLearn Hub. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/theme.js"></script>
+  <script src="js/tutorials.js"></script>
+</body>
+</html>

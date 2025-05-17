@@ -1,0 +1,81 @@
+{
+    "title": "Python Tutorials for Beginners (Dave Gray)",
+    "videos": [
+        { "id": "6i3e-j3wSf0", "title": "Course Introduction", "duration": "4:36", "difficulty": "Beginner", "desc": "Learn what this Python course covers and how it will benefit you." },
+        { "id": "fLAfa-BQtOQ", "title": "Python Basics", "duration": "14:12", "difficulty": "Beginner", "desc": "Get started with Python by learning the basics of the language." },
+        { "id": "7BxUaeROVXI", "title": "Operators", "duration": "12:07", "difficulty": "Beginner", "desc": "Understand Python operators and their use in expressions." },
+        { "id": "INGJh9DEaBM", "title": "Data Types", "duration": "16:15", "difficulty": "Beginner", "desc": "Learn about Python data types, including numbers, strings, and booleans." },
+        { "id": "N94vSNBF-EI", "title": "User Input", "duration": "18:18", "difficulty": "Beginner", "desc": "Explore how to take input from users in Python programs." },
+        { "id": "KWKWswDfAb0", "title": "Lists & Tuples", "duration": "10:58", "difficulty": "Beginner", "desc": "Learn how to work with Python lists and tuples for ordered data." },
+        { "id": "zdVdqTLk8O0", "title": "Dictionaries and Sets", "duration": "20:25", "difficulty": "Beginner", "desc": "Understand dictionaries and sets for managing unique and key-value data." },
+        { "id": "23vCap6iYSs", "title": "Loops", "duration": "17:11", "difficulty": "Beginner", "desc": "Master Python loops such as for and while to iterate over data." },
+        { "id": "NZMBVkTP3LA", "title": "Functions", "duration": "11:05", "difficulty": "Beginner", "desc": "Learn how to define and use functions in Python." },
+        { "id": "72uVUU1boKo", "title": "Recursion", "duration": "17:59", "difficulty": "Beginner", "desc": "Understand recursion and how it works in Python programs." },
+        { "id": "e_UgAqOdEXY", "title": "Scope", "duration": "13:35", "difficulty": "Beginner", "desc": "Explore Python variable scope, including local and global variables." },
+        { "id": "8Lu5DdTxGCU", "title": "Closures", "duration": "15:44", "difficulty": "Beginner", "desc": "Learn about closures and how they are used in Python." },
+        { "id": "ktOOKv6XJ7U", "title": "f-Strings & String Formatting", "duration": "15:44", "difficulty": "Beginner", "desc": "Discover modern string formatting techniques in Python." },
+        { "id": "8ArHkS70QsQ", "title": "Modules", "duration": "17:23", "difficulty": "Beginner", "desc": "Learn how to use Python modules to organize and reuse code." },
+        { "id": "mZbRRQMJ7Ew", "title": "Command Line Arguments", "duration": "15:34", "difficulty": "Intermediate", "desc": "Work with command-line arguments in Python." },
+        { "id": "odBW-NClTNA", "title": "Challenges & Practice", "duration": "12:52", "difficulty": "Intermediate", "desc": "Solve coding challenges to practice Python concepts." },
+        { "id": "YIOYJgLQYiY", "title": "Lambda & Higher Order Functions", "duration": "15:05", "difficulty": "Intermediate", "desc": "Learn about lambda expressions and higher-order functions in Python." },
+        { "id": "RpBBzci_cBk", "title": "Classes & Objects", "duration": "9:02", "difficulty": "Intermediate", "desc": "Understand object-oriented programming with classes and objects in Python." },
+        { "id": "PHzm_Iox1mE", "title": "Exceptions & Errors", "duration": "13:54", "difficulty": "Beginner", "desc": "Handle exceptions and errors in Python programs." },
+        { "id": "PMFd95RgIwE", "title": "OOP Projects", "duration": "18:53", "difficulty": "Intermediate", "desc": "Build projects using object-oriented programming in Python." },
+        { "id": "eDe-z2Qy9x4", "title": "Venv and Pip", "duration": "14:45", "difficulty": "Intermediate", "desc": "Learn how to manage Python packages with venv and pip." },
+        { "id": "BRrem1k3904", "title": "Files", "duration": "13:51", "difficulty": "Intermediate", "desc": "Work with files in Python for reading and writing data." },
+        { "id": "jQjjqEjZK58", "title": "Final Project", "duration": "19:10", "difficulty": "Intermediate", "desc": "Apply what you’ve learned in a final Python project." }
+    ],
+    "exercises": {
+        "6i3e-j3wSf0": {
+            "description": "Write a Python program to display 'Hello, World!'",
+            "starterCode": {
+                "python": "print('Hello, World!')",
+                "javascript": "console.log('Hello, World!');",
+                "java": "public class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, World!\");\n    }\n}",
+                "php": "<?php echo 'Hello, World!'; ?>",
+                "html": "<!DOCTYPE html>\n<html>\n<body>\n<h1>Hello, World!</h1>\n</body>\n</html>"
+            }
+        },
+        "fLAfa-BQtOQ": {
+            "description": "Write a Python program to calculate the sum of two numbers.",
+            "starterCode": {
+                "python": "a = 5\nb = 10\nprint(a + b)",
+                "javascript": "let a = 5;\nlet b = 10;\nconsole.log(a + b);",
+                "java": "public class Main {\n    public static void main(String[] args) {\n        int a = 5;\n        int b = 10;\n        System.out.println(a + b);\n    }\n}",
+                "php": "<?php\n$a = 5;\n$b = 10;\necho $a + $b;\n?>",
+                "html": "<!DOCTYPE html>\n<html>\n<body>\n<p>5 + 10 = <span id=\"result\"></span></p>\n<script>\n    document.getElementById('result').textContent = 5 + 10;\n</script>\n</body>\n</html>"
+            }
+        },
+        "7BxUaeROVXI": {
+            "description": "Write a Python program to demonstrate the use of arithmetic operators.",
+            "starterCode": {
+                "python": "a = 10\nb = 3\nprint('Addition:', a + b)\nprint('Division:', a / b)",
+                "javascript": "let a = 10;\nlet b = 3;\nconsole.log('Addition:', a + b);\nconsole.log('Division:', a / b);",
+                "java": "public class Main {\n    public static void main(String[] args) {\n        int a = 10, b = 3;\n        System.out.println(\"Addition: \" + (a + b));\n        System.out.println(\"Division: \" + ((double)a / b));\n    }\n}",
+                "php": "<?php\n$a = 10;\n$b = 3;\necho 'Addition: ' . ($a + $b) . \"\\n\";\necho 'Division: ' . ($a / $b) . \"\\n\";\n?>",
+                "html": "<!DOCTYPE html>\n<html>\n<body>\n<p id=\"output\"></p>\n<script>\nlet a = 10;\nlet b = 3;\nlet output = `Addition: ${a + b}, Division: ${a / b}`;\ndocument.getElementById('output').innerText = output;\n</script>\n</body>\n</html>"
+            }
+        },
+        "INGJh9DEaBM": {
+            "description": "Write a Python program to demonstrate different data types.",
+            "starterCode": {
+                "python": "a = 42\nb = 3.14\nc = True\nprint(type(a), type(b), type(c))",
+                "javascript": "let a = 42;\nlet b = 3.14;\nlet c = true;\nconsole.log(typeof a, typeof b, typeof c);",
+                "java": "public class Main {\n    public static void main(String[] args) {\n        int a = 42;\n        double b = 3.14;\n        boolean c = true;\n        System.out.println(\"int: \" + a + \", double: \" + b + \", boolean: \" + c);\n    }\n}",
+                "php": "<?php\n$a = 42;\n$b = 3.14;\n$c = true;\necho gettype($a) . ' ' . gettype($b) . ' ' . gettype($c);\n?>",
+                "html": "<!DOCTYPE html>\n<html>\n<body>\n<p id=\"output\"></p>\n<script>\nlet a = 42;\nlet b = 3.14;\nlet c = true;\ndocument.getElementById('output').innerText = `${typeof a}, ${typeof b}, ${typeof c}`;\n</script>\n</body>\n</html>"
+            }
+        },
+        "N94vSNBF-EI": {
+            "description": "Write a Python program to take user input and display it.",
+            "starterCode": {
+                "python": "user_input = input('Enter something: ')\nprint('You entered:', user_input)",
+                "javascript": "let userInput = prompt('Enter something:');\nconsole.log('You entered:', userInput);",
+                "java": "import java.util.Scanner;\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        System.out.print(\"Enter something: \");\n        String userInput = scanner.nextLine();\n        System.out.println(\"You entered: \" + userInput);\n    }\n}",
+                "php": "<?php\nfwrite(STDOUT, 'Enter something: ');\n$userInput = trim(fgets(STDIN));\necho 'You entered: ' . $userInput . PHP_EOL;\n?>",
+                "html": "<!DOCTYPE html>\n<html>\n<body>\n<p id=\"output\"></p>\n<script>\nlet userInput = prompt('Enter something:');\ndocument.getElementById('output').innerText = `You entered: ${userInput}`;\n</script>\n</body>\n</html>"
+            }
+        }
+    
+    }
+}
