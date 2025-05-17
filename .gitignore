@@ -2,13 +2,18 @@
 node_modules/
 package-lock.json
 
-# IDE and Editor files
-.vscode/
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE files
 .idea/
+.vscode/
 *.swp
 *.swo
 
-# OS generated files
+# OS files
 .DS_Store
 .DS_Store?
 ._*
@@ -17,13 +22,21 @@ package-lock.json
 ehthumbs.db
 Thumbs.db
 
-# Logs
+# Build files
+dist/
+build/
 *.log
+
+# Firebase
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+
+# Cache
+.cache/
+.temp/
+
+# Logs
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
-
-# Environment variables
-.env
-.env.local
-.env.*.local 
+yarn-error.log* 
